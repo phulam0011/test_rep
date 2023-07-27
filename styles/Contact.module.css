@@ -1,0 +1,105 @@
+.header {
+    background-color: #fff;
+    color: #727272;
+    font-weight: bold;
+    position: relative;
+    z-index: 999;
+    padding: 20px 0;
+    -webkit-transition: .2s;
+    transition: .2s;
+}
+
+.container {
+    max-width: 1000px;
+    width: 100%;
+    padding: 0 15px;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.headerlogo {
+    margin-right: auto;
+    margin-left: 10px;
+    width: 100%;
+    height: auto;
+}
+
+.menunav {
+    text-align: inherit;
+    overflow: visible;
+    box-sizing: border-box;
+    -webkit-box-flex: 1;
+    display: flex;
+}
+
+.li {
+    margin-left: 20px;
+}
+
+.li:hover .navLink {
+    color: #002c3c;
+    transition: 0.4s ease;
+}
+
+.navLink {
+    display: inline-block;
+}
+
+.contact {
+    color: #002c3c;
+    margin-left: 20px;
+}
+
+
+.h3 {
+    font-size: 36px;
+    text-shadow: 1px 1px #FFFFFF;
+    text-transform: uppercase;
+    color: #0695e1;
+}
+
+.container_contact {
+    margin: 50px 120px;
+    padding-left: 0;
+    padding-right: 0;
+}
+
+.a {
+    color: #0695e1;
+}
+
+.map {
+    display: flex;
+   
+}
+.mapitem{
+    width: 50%;
+    height: 450px;
+}
+
+.iframe {
+    border: 1px solid black;
+    height: 100%;
+    width: 100%;
+    /* takes precedence over the width set with the HTML width attribute */
+}
+
+.footer {
+    height: 60px;
+    display: flex;
+    justify-content: center;
+    align-items: center;    
+}
+
+.footer a {
+    text-decoration: none;
+    color: #333;
+    padding: 10px 20px;
+    border: 1px solid #333;
+    border-radius: 5px;   
+    display: flex; 
+    justify-content: center; 
+    align-items: center; 
+}
